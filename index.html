@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <title>WebStudio</title>
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header class="container">
         <!-- logo -->
-            <a href="#!"><span><b>Web</b></span>Studio</a>
+            <a class="logo" href="index.html"><span><b>Web</b></span>Studio</a>
         <!-- nav -->
         <nav>
             <ul>
-                <li><a href="#!">Студия</a></li>
-                <li><a href="#!">Портфолио</a></li>
+                <li><a href="index.html">Студия</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
                 <li><a href="#!">Контакты</a></li>
             </ul>
         </nav>
         <!-- about us / contact -->
-        <div class="contanct">
+        <div class="contact">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
         </div>
     </header>
     <!-- first_section -->
-    <section>
-            <h1>
-                Эффективные решения для вашего бизнеса
-            </h1>
-            <button type="button">
-                Заказать услугу
-            </button>
+    <section class="first_section container">
+        <h1 class="headline">
+            Эффективные решения для вашего бизнеса
+        </h1>
+        <button type="button">
+            Заказать услугу
+        </button>
     </section>
     <!-- second section -->
-    <section>
+    <section class="container second_section">
         <ul>
         <!-- first adventage -->
         <li>
@@ -85,81 +89,83 @@
         </ul>
     </section>
     <!-- third section -->
-    <section>
-            <h2>
+    <section class="container third_section">
+            <h2 class="headline">
                 Чем мы занимаемся
             </h2>
             <ul>
                 <li>
-                    <img src="img/third_section_first.jpg" width="370" height="300" alt="кодим"> <!-- такое описание пойдет? Думаю клиента бы улыбнуло такое описание:) --> 
+                    <img src="img/home/third_section_first.jpg" width="370" height="300" alt="кодим"> <!-- такое описание пойдет? Думаю клиента бы улыбнуло такое описание:) --> 
                 </li>
                 <li>
-                    <img src="img/third_section_second.jpg" width="370" height="300" alt="дизайнерим">
+                    <img src="img/home/third_section_second.jpg" width="370" height="300" alt="дизайнерим">
                 </li>
                 <li>
-                    <img src="img/third_section_third.jpg" width="370" height="300" alt="играемся с цветами, вместо шрифтов">
+                    <img src="img/home/third_section_third.jpg" width="370" height="300" alt="играемся с цветами, вместо шрифтов">
                 </li>
             </ul>
     </section>
     <!-- fourth section/our commande -->
-    <section>
-        <h2>Наша команда</h2>    
+    <section class="container fourth_section">
+        <h2 class="headline">Наша команда</h2>    
         <!-- card -->
-        <li>
-            <!-- img_card -->
-            <img src="img/igor_demyanko.jpg" width="270" height="260" alt="Игорь Демьяненко">
-            <!-- headline_card -->
-            <h3>
-                Игорь Демьяненко
-            </h3>    
-            <!-- body_card -->
-            <p>
-                Product Designer    
-            </p>            
-        </li>
-        <li>
-            <!-- img_card -->
-            <img src="img/olga_repina.jpg" width="270" height="260" alt="Ольга Репина">        
-            <!-- headline_card -->
-            <h3>
-                Ольга Репина
-            </h3>    
-            <!-- body_card -->
-            <p>
-                Frontend Developer
-            </p>            
-        </li>
-        <li>
-            <!-- img_card -->
-            <img src="img/nikolai_tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
-            <!-- headline_card -->
-            <h3>
-                Николай Тарасов
-            </h3>         
-            <!-- body_card -->
-            <p>
-                Marketing
-            </p>            
-        </li>
-        <li>
-            <!-- img_card -->
-            <img src="img/mihail_ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
-            <!-- headline_card -->
-            <h3>
-                Михаил Ермаков
-            </h3>    
-            <!-- body_card -->
-            <p>
-                UI Designer
-            </p>
-        </li>
+        <ul>
+            <li>
+                <!-- img_card -->
+                <img src="img/home/igor_demyanko.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                <!-- headline_card -->
+                <h3>
+                    Игорь Демьяненко
+                </h3>    
+                <!-- body_card -->
+                <p>
+                    Product Designer    
+                </p>            
+            </li>
+            <li>
+                <!-- img_card -->
+                <img src="img/home/olga_repina.jpg" width="270" height="260" alt="Ольга Репина">        
+                <!-- headline_card -->
+                <h3>
+                    Ольга Репина
+                </h3>    
+                <!-- body_card -->
+                <p>
+                    Frontend Developer
+                </p>            
+            </li>
+            <li>
+                <!-- img_card -->
+                <img src="img/home/nikolai_tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
+                <!-- headline_card -->
+                <h3>
+                    Николай Тарасов
+                </h3>         
+                <!-- body_card -->
+                <p>
+                    Marketing
+                </p>            
+            </li>
+            <li>
+                <!-- img_card -->
+                <img src="img/home/mihail_ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
+                <!-- headline_card -->
+                <h3>
+                    Михаил Ермаков
+                </h3>    
+                <!-- body_card -->
+                <p>
+                    UI Designer
+                </p>
+            </li>
+        </ul>
     </section>
     <!-- footer -->
     <footer>
-        <a href="#!"><span>Web</span>Studio</a>
+        <a class="logo footer_logo" href="#!"><span><b>Web</b></span>Studio</a>
         <ul>
             <li>
-                <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+                <a href="!#" class="footer_adress">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
             <li>
                 <a href="mailto:info@example.com">info@example.com</a>
@@ -169,5 +175,6 @@
             </li>
         </ul>
     </footer>
+
 </body>
 </html>

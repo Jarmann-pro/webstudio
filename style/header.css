@@ -1,0 +1,39 @@
+/* шапка */
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    height: 80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+/* logo */
+.logo a {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo span {
+    transition: .4s;
+    color: #2196F3;
+}
+.logo:hover span {
+    color: #212121;
+    transition: .4s;
+}
+/* nav */
+nav ul {
+    display: flex;
+}
+nav li:nth-child(2n) {
+    margin: 0 50px;
+}
+/* contact */
+.contact a:first-child {
+    margin-right: 50px;
+}

@@ -1,0 +1,25 @@
+
+/* footer */
+footer {
+    background: #2F303A;
+    width: 100%;
+    padding: 60px 215px;
+  }
+  .footer_logo {
+    transition: .4s;
+    color: #fff;
+  }
+  .footer_logo:hover span {
+    color: #fff;
+    transition: .4s;
+  }
+  footer a {
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer_adress{
+    color: #FFFFFF;
+  }
+  

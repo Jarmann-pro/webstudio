@@ -1,0 +1,112 @@
+@import 'home.css';
+@import 'header.css';
+@import 'portfolio.css';
+
+
+/* Обнуление стилей, часто используемые стили */
+/* Указываем box sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+/* Убираем внутренние отступы */
+ul[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body, h1, h2, h3, h4, p, ul[class], li {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* _____________ */
+
+/* часто используемые стили */
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+.container {
+  width: 100%;
+  padding: 0 215px;
+}
+section {
+  margin: 91px 0;
+}
+/* стили ссылки | link style */
+a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  color: #212121;
+  text-decoration: none;
+  transition: .4s;
+}
+/* ссылка при наведении | link hover */
+a:hover {
+  color: #2196F3;
+  transition: .4s;
+}
+/* стили заголовка | headline style */
+.headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+
+/* button */
+
+button{
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  transition: .8s;
+  color: #FFFFFF;
+  outline: 0;
+}
+button:hover {
+  transition: .8s;
+  background: #69bcff;
+}
+button:active {
+  transition: .15s;
+  background: #69ff9b;
+}
